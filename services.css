@@ -1,0 +1,181 @@
+/*blogs css*/
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons .login {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.auth-buttons .get-started {
+    background-color: #FF5400; /* Button color */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+
+/*service card */
+.container h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.service-card {
+    border: 2px solid #e9ecf0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-card h5 {
+    font-weight: bold;
+}
+
+.service-card p {
+    font-size: 14px;
+}
+
+
+/* Help Section */
+.help-section {
+    background: #fce4ec;
+    border-radius: 56px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: auto;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping of content */
+}
+
+.help-text h2 {
+    color: #3C2A4D;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.help-text p {
+    color: #3C2A4D;
+    margin-bottom: 0;
+}
+
+.help-btn {
+    background-color: #FF6C37;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.help-btn:hover {
+    background-color: #FF5A25;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .help-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px; 
+        max-height: none; 
+    }
+
+    .help-btn {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .help-section {
+        padding: 25px;
+    }
+
+    .help-text h2 {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+
+    .help-text p {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .help-btn {
+        font-size: 0.9rem; /* Adjust button font size */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.wave-line{
+    flex-wrap: wrap;
+    position: relative;
+}
+.wave-line img {
+    width: 100%;  
+    height: auto; 
+}
+.footer a {
+    color: #000; /* Set link color to black */
+    text-decoration: none; /* Remove underline */
+}
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.footer .copyright {
+    text-align: right;
+}
+
+.footer .social-icons a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  
+}
+
+.footer .wave-line {
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+
+

@@ -1,0 +1,361 @@
+/* General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons .login {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.auth-buttons .get-started {
+    background-color: #FF5400; 
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+
+
+
+.headline {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.subheadline {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .headline {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .subheadline {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+/* Custom styling */
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.image-wrapper-3 img {
+    width: 83%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.main-content {
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .image-wrapper img {
+        margin-bottom: 15px;
+    }
+}
+
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    flex: 1;
+    min-width: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold
+}
+.stat-box h6{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.stat-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.story-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.story-content h3 {
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 10px;
+   
+}
+
+.story-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.story-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .story-content h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+.features-section {
+    padding: 70px; 
+}
+
+.features-section .section-title {
+    text-align: center;
+    font-size: 2.5rem; 
+    font-weight: bold;
+    margin-bottom: 50px; 
+}
+
+.feature-box {
+    text-align: center;
+    padding: 40px; 
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 10px; 
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.feature-box .icon {
+    font-size: 3rem; /* Increased icon size */
+    margin-bottom: 25px; /* Increased margin */
+}
+
+.feature-box h4 {
+    font-size: 1.5rem; /* Increased font size */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.feature-box p {
+    font-size: 1.1rem; /* Increased font size */
+    color: #555;
+    line-height: 1.8; /* Increased line height */
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem; /* Adjusted for smaller screens */
+    }
+
+    .feature-box {
+        padding: 30px; /* Reduced padding for smaller screens */
+    }
+
+    .feature-box h4 {
+        font-size: 1.3rem; /* Adjusted font size */
+    }
+
+    .feature-box p {
+        font-size: 1rem; /* Adjusted font size */
+    }
+}
+
+
+
+
+.team-section {
+    text-align: center;
+    margin: 20px auto;
+}
+.team-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.team-card {
+    border: none;
+    background: none;
+    margin-bottom: 20px;
+}
+.team-card img {
+    border-radius: 10px;
+    width: 75%;
+    height: auto;
+}
+.team-card h5 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.team-card p {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Help Section */
+.help-section {
+    background: #fce4ec;
+    border-radius: 56px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: auto;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping of content */
+}
+
+.help-text h2 {
+    color: #3C2A4D;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.help-text p {
+    color: #3C2A4D;
+    margin-bottom: 0;
+}
+
+.help-btn {
+    background-color: #FF6C37;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.help-btn:hover {
+    background-color: #FF5A25;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .help-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px; 
+        max-height: none; 
+    }
+
+    .help-btn {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .help-section {
+        padding: 25px;
+    }
+
+    .help-text h2 {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+
+    .help-text p {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .help-btn {
+        font-size: 0.9rem; /* Adjust button font size */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.wave-line{
+    flex-wrap: wrap;
+    position: relative;
+}
+.wave-line img {
+    width: 100%;  
+    height: auto; 
+}
+.footer a {
+    color: #000; /* Set link color to black */
+    text-decoration: none; /* Remove underline */
+}
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.footer .copyright {
+    text-align: right;
+}
+
+.footer .social-icons a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  
+}
+
+.footer .wave-line {
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+
+
